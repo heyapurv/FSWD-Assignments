@@ -1,0 +1,40 @@
+Q1. What are inline and block elements in HTMLand the difference between them? Name a few inline elements and block elements.
+
+Ans. In HTML, both inline elements and block elements are used to define the structure and layout of web pages.
+
+Inline elements are used to describe small pieces of content or text that appear within a line of text or within other inline elements. Some examples of inline elements include <span>, <a>, <img>, <strong>, and <em>. Inline elements do not start a new line and only take up as much width as necessary to display their content.
+
+Block elements, on the other hand, are used to describe larger pieces of content or structural components of a web page such as paragraphs, headings, dividers, and sections. Some examples of block elements include <div>, <p>, <h1>-<h6>, <ul>, <ol>, and <section>. Block elements always start on a new line and take up the full width available in their container.
+
+The difference between inline elements and block elements is mainly in their default display behavior and how they affect the layout of the page. Inline elements don't create line breaks, so they are used for content that is meant to be displayed inline with other content. Block elements, on the other hand, create line breaks before and after the element and take up the full width of their container, so they are used for larger pieces of content or to structure a page layout.
+
+Q2.How to work with images in HTML and explain in detail <img/> tag important attributes. 
+Ans. Working with images in HTML involves using the <img> tag to insert an image into a web page. The <img> tag is a self-closing tag that requires an "src" attribute to specify the URL or file path of the image file to be displayed. For example, <img src="example.jpg"> would display an image file named "example.jpg" in the location where the tag is placed.
+
+In addition to the "src" attribute, the <img> tag also supports several other attributes that can be used to control the appearance and behavior of the image, including:
+
+"alt": This attribute provides a text description of the image that is displayed in place of the image if it cannot be loaded or if the user is using a screen reader to access the content.
+
+"width" and "height": These attributes specify the width and height of the image in pixels. It is recommended to specify both the width and height attributes to avoid layout shifts as the page loads.
+
+"title": This attribute provides additional information about the image that is displayed as a tooltip when the user hovers over the image.
+
+Using the <img> tag and its attributes properly is important for creating a visually appealing and accessible web page. Providing alternative text for images with the "alt" attribute is particularly important for accessibility, as it enables users who cannot see the image to still understand its meaning and context. Additionally, specifying the width and height of an image can help prevent layout shifts as the page loads, improving the user experience.
+
+Q3. How to create lists in HTML?
+
+Ans. There are two types of lists that can be created in HTML: ordered lists and unordered lists.
+
+To create an ordered list, use the <ol> element with one or more <li> elements to define the items in the list. The <li> element represents a list item.
+
+To create an unordered list, use the <ul> element with one or more <li> elements to define the items in the list.
+
+Both ordered and unordered lists can also include nested lists by simply adding another list element within an <li> element.
+
+Q4. How to interlink web pages and navigate people to other websites?
+
+Ans. To interlink web pages within your own website, you can use the <a> (anchor) element with the href attribute set to the URL of the target page.
+
+To navigate people to other websites, you can also use the <a> element with the href attribute set to the URL of the external website
+
+To open the linked page or website in a new browser window or tab, you can add the target="_blank" attribute to the <a> element.
