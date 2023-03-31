@@ -1,0 +1,33 @@
+Q1.Why do we start larning a programming language with “Hello World!"?
+
+Ans. -It is a simple and easy-to-understand program, which makes it an excellent starting point for those who are completely new to programming.
+
+-It helps beginners get familiar with the basic syntax and structure of the programming language they are learning.
+
+-It provides a quick way to verify that the programming environment is set up correctly and that the necessary tools and libraries are installed.
+
+-It helps to build confidence in beginners by showing them that they can write a working program from scratch.
+
+Q2.How is the use of comments and how do you write comments in HTML?
+
+Ans. Comments are used in programming to add explanatory or descriptive text to code, which is ignored by the interpreter or compiler. Comments are not executed as part of the code and are used solely for human readability and understanding.
+
+In HTML, you can write comments using the <!-- --> syntax. Anything written inside this syntax will be ignored by the web browser and will not be displayed on the webpage
+
+Q3.What are elements, tags and attributes and the difference between them.
+
+Ans. In HTML, elements are the building blocks of web pages. They define the structure and content of a page, and are represented by HTML tags. Attributes, on the other hand, provide additional information about an HTML element, such as its behavior, appearance, or functionality.
+
+HTML Tags:
+HTML tags are used to define HTML elements on a web page. A tag consists of the opening tag (such as <p>) and the closing tag (such as </p>), with the content in between. HTML tags can be nested inside each other to create complex structures.
+
+HTML Attributes:
+HTML attributes provide additional information about an HTML element. They are added to an HTML tag and are specified as name-value pairs.
+
+The main difference between elements, tags, and attributes is that elements are the building blocks of a web page, tags are used to define elements, and attributes provide additional information about an element. In other words, elements are the things you create, tags are the syntax you use to create them, and attributes are the properties you assign to them to give them special behavior or characteristics.
+
+Q4.Briefly explain what are HTML entities are.
+
+Ans. HTML entities are special codes that are used in HTML to represent characters that cannot be typed directly on a keyboard or that have special meanings in HTML, such as <, >, ", ', and &.
+
+HTML entities begin with an ampersand (&) and end with a semicolon (;). The code between the ampersand and the semicolon represents the entity.
