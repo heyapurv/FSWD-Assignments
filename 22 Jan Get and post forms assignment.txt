@@ -1,0 +1,77 @@
+Q1. Explain the Table and its properties.
+
+Ans. In HTML, a table is a structured way of displaying data in rows and columns. It consists of several elements that allow you to define the structure, content, and appearance of the table.
+
+Here are the basic properties of a table in HTML:
+
+<table> element: This is the outermost element that defines the table. It contains all the other table elements.
+
+<tr> element: This stands for "table row" and defines a single row of the table. You can have multiple rows within a table.
+
+<td> element: This stands for "table data" and defines a single cell within a row. You can have multiple cells within a row.
+
+<th> element: This stands for "table header" and defines a header cell within a row. Header cells are typically used to label the columns or rows of the table.
+
+<caption> element: This allows you to add a title or caption to the table. It appears above or below the table, depending on the placement specified.
+
+colspan attribute: This allows you to specify how many columns a cell should span across. For example, if you have a cell that should take up two columns, you would set colspan="2".
+
+rowspan attribute: This allows you to specify how many rows a cell should span down. For example, if you have a cell that should take up two rows, you would set rowspan="2".
+
+Border attribute: This attribute sets the width of the border of the table. The value can be set to "0" to remove the border altogether, or a positive integer to specify the width in pixels.
+
+Width attribute: This attribute sets the width of the table. The value can be set to a percentage or a fixed pixel value.
+
+Align attribute: This attribute sets the horizontal alignment of the table within its container. The value can be set to "left", "center", or "right".
+
+Q2. Explain all media elements and how they work.
+
+Ans: Here are the most commonly used media elements and how they work:
+
+<img> element: This is used to embed images into a web page. You simply specify the source of the image using the src attribute, and the browser will fetch and display the image. You can also use other attributes like alt to provide a description of the image and width and height to specify its dimensions.
+
+<audio> element: This is used to embed audio files into a web page. You specify the source of the audio file using the src attribute, and the browser will display a built-in audio player that allows the user to play, pause, and adjust the volume of the audio file. You can also use other attributes like controls to display the built-in audio player and loop to make the audio file repeat.
+
+<video> element: This is used to embed video files into a web page. You specify the source of the video file using the src attribute, and the browser will display a built-in video player that allows the user to play, pause, and adjust the volume of the video file. You can also use other attributes like controls to display the built-in video player and width and height to specify the dimensions of the video player.
+
+<source> element: This is used to specify multiple sources for media elements like <audio> and <video>. You can provide multiple source files using different formats and the browser will choose the best-suited source file based on the user's device and browser.
+
+<picture> element: This is used to provide multiple versions of an image for different screen sizes and resolutions. You can specify different sources for the <img> element within the <picture> element using the <source> element.
+
+<iframe> element: This is used to embed a web page or another HTML document within a web page. You specify the source of the web page using the src attribute, and the browser will display the embedded web page within the parent web page.
+
+Q3. What is get and post in forms?
+
+Ans. When you fill out a form on a website, you can submit the information you entered to the website's server for processing. The two ways to submit this information are through a GET or POST request.
+
+GET request: When you submit a form using the GET request, the information you entered is added to the end of the website's URL in the form of a query string. This type of request is usually used for simple and non-sensitive data like a search query.
+
+POST request: When you submit a form using the POST request, the information you entered is sent in the background to the website's server and is not added to the URL. This type of request is usually used for sensitive information like a password or credit card information.
+
+Q4. List all the input types we have in forms.
+
+Ans. text: This type of input field is used for entering single-line text.
+
+password: This type of input field is used for entering a password. The characters entered are usually masked with asterisks or bullets.
+
+email: This type of input field is used for entering an email address. The browser will typically validate the email address entered to ensure that it is in a valid format.
+
+number: This type of input field is used for entering a numeric value.
+
+checkbox: This type of input field allows the user to select one or more options from a list of checkboxes.
+
+radio: This type of input field allows the user to select one option from a list of radio buttons.
+
+date: This type of input field is used for entering a date.
+
+file: This type of input field allows the user to select one or more files to upload to the server.
+
+submit: This type of input field is used for submitting the form to the server.
+
+reset: This type of input field is used for resetting the form to its initial values.
+
+button: This type of input field is used for creating a custom button in the form.
+
+hidden: This type of input field is used to store a value that is not displayed to the user.
+
+These are the most commonly used input types in HTML.
