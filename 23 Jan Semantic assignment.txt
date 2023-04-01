@@ -1,0 +1,55 @@
+Q1. What are the new thing introduced in HTML5? 
+
+Ans. HTML5 introduced several new features and improvements compared to previous versions of HTML. Some of the key new features introduced in HTML5 include:
+
+Semantic Elements: HTML5 introduced several new semantic elements such as <header>, <nav>, <article>, <section>, <footer>, etc., which help to better structure the content and improve accessibility.
+
+Audio and Video: HTML5 added support for embedding audio and video directly in web pages using the <audio> and <video> elements, respectively. This eliminates the need for third-party plugins such as Flash.
+
+Canvas: HTML5 introduced the <canvas> element, which allows for dynamic, scriptable rendering of 2D and 3D graphics, animations, and interactive applications.
+
+Local Storage: HTML5 introduced the localStorage API, which allows web developers to store data on the client-side, enabling offline applications and improving performance.
+
+Form Controls: HTML5 added several new input types such as date, time, email, search, etc., making it easier to create web forms that are both more accessible and easier to use.
+
+Drag and Drop: HTML5 added support for native drag and drop functionality, which allows users to drag elements on a web page and drop them elsewhere.
+
+Web Workers: HTML5 introduced the Web Workers API, which allows for multi-threading in web applications, improving performance and responsiveness.
+
+Geolocation: HTML5 added support for geolocation, allowing web applications to access the user's location and provide location-based services.
+
+Q2. What are semantic tags? Give a couple of examples.
+
+Ans. Semantic tags are HTML elements that provide meaning and context to the content within them, helping search engines and web browsers to understand the structure and purpose of the page. These tags help to improve the accessibility, usability, and SEO of a web page.
+
+Some examples of semantic tags in HTML5 include:
+
+<header> - Defines the header section of a web page or article.
+
+<nav> - Defines the navigation links for a web page.
+
+<main> - Defines the main content of a web page.
+
+<section> - Defines a section of a web page or article.
+
+<article> - Defines an independent piece of content that can stand alone.
+
+<aside> - Defines content that is related to the main content but can be considered separate from it.
+
+<footer> - Defines the footer section of a web page or article.
+
+Q3. List some use of semantic tags.
+
+Ans. Semantic tags have several uses in HTML, including:
+
+Improved Accessibility: Semantic tags help to create a more accessible website by providing additional meaning and context to the content on the page. This can improve the experience for users who rely on assistive technologies such as screen readers.
+
+Better SEO: Search engines use semantic tags to understand the structure and meaning of a web page, which can help to improve its ranking in search results.
+
+Easier Maintenance: Semantic tags make the code easier to read and understand, which can make it easier to maintain and update over time.
+
+More Consistent Design: By using consistent semantic tags across a website, designers can create a more consistent and cohesive visual design.
+
+Improved Usability: Semantic tags make it easier for users to navigate a website and understand its structure, which can improve the overall usability of the site.
+
+Better Mobile Optimization: Semantic tags help to create a more responsive and mobile-friendly website, which is increasingly important as more users access the web from mobile devices.
