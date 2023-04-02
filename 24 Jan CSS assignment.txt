@@ -1,0 +1,25 @@
+Q1. What is CSS and why it is used?
+
+Ans. CSS stands for Cascading Style Sheets. It is a style sheet language that is used to describe the look and formatting of a document written in a markup language like HTML. CSS is used to separate the content of a document from its presentation, allowing for more flexibility and control over the appearance of a webpage.
+
+CSS is used to apply styles to elements on a webpage, such as fonts, colors, backgrounds, borders, and layout. With CSS, you can control the size, color, and font of text, the layout of elements on a page, and the appearance of links and other interactive elements.
+
+Q2. What are the differnet ways to bring CSS into an HTML file?
+
+Ans. There are three ways to bring CSS into an HTML file:
+
+Inline CSS: Inline CSS is when you add CSS code directly to an HTML element using the style attribute.
+
+Internal CSS: Internal CSS is when you add CSS code to the head section of an HTML file using the <style> tag. 
+
+External CSS: External CSS is when you create a separate CSS file with all the styles you want to apply to an HTML document, and then link to it using the <link> tag in the head section of the HTML file.
+
+Q3. What do you mean by specificity in CSS?
+
+Ans. In CSS, specificity is the mechanism that determines which CSS rule applies to an element when more than one rule could potentially target the same element.
+
+Each CSS rule has a specificity value, which is calculated based on the selectors used to create the rule. The specificity value is a numerical score assigned to each rule, with higher scores indicating greater specificity.
+
+The specificity of a selector is determined by the number of element names, class names, and ID names used in the selector. For example, a selector that targets an element using an ID has a higher specificity than a selector that targets the same element using a class name.
+
+In general, the more specific a selector is, the higher its specificity value and the more likely it is to be applied to an element. If two or more rules have the same specificity, the last one in the stylesheet takes precedence and is applied to the element.
