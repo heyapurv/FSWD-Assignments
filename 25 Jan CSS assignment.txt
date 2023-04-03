@@ -1,0 +1,36 @@
+Q1. Why CSS selectors are used in HTML?
+Ans. CSS selectors are used in HTML to select specific elements or groups of elements and apply styles to them. By using selectors, developers can target specific HTML elements and define how they should appear on a web page. This allows for precise control over the appearance and layout of a web page, which is important for creating a consistent user experience and making the page visually appealing.
+
+For example, a developer may use a CSS selector to target all the heading elements (h1, h2, h3, etc.) and apply a certain font, color, and size to them. Alternatively, they may use a selector to target only the headings within a specific section of the page and apply a different set of styles to them.
+
+CSS selectors can also be used to target elements based on their attributes, their position within the HTML document, or their relationship to other elements. This level of specificity makes CSS a powerful tool for controlling the visual presentation of web content.
+
+Q2. What are the different types of selectors in CSS?
+Ans. There are several types of selectors in CSS, including:
+
+Element selectors: These select HTML elements based on their tag name. For example, the selector p will select all p elements on a page.
+
+Class selectors: These select elements based on the value of their class attribute. For example, the selector .my-class will select all elements that have a class attribute with a value of my-class.
+
+ID selectors: These select elements based on the value of their id attribute. For example, the selector #my-id will select the element that has an id attribute with a value of my-id.
+
+Attribute selectors: These select elements based on the value of their attributes. For example, the selector [type="text"] will select all elements that have a type attribute with a value of text.
+
+Descendant selectors: These select elements that are descendants of another element. For example, the selector ul li will select all li elements that are descendants of a ul element.
+
+Child selectors: These select elements that are direct children of another element. For example, the selector ul > li will select all li elements that are direct children of a ul element.
+
+Pseudo-classes: These select elements based on their state or position. For example, the selector a:hover will select all a elements that are being hovered over by the mouse.
+
+Pseudo-elements: These select parts of an element that do not exist as separate elements in the HTML document. For example, the selector p::first-letter will select the first letter of all p elements.
+
+Q3. How do you include external fonts and apply them?
+Ans. Find a web font we would like to use and obtain the font files in the appropriate format (usually .woff or .woff2). We can find web fonts from a variety of sources such as Google Fonts or Font Squirrel.
+
+Upload the font files to our web server or a third-party service like Google Fonts.
+
+In our HTML file, add a link to the font in the head section of our document using the link tag. 
+
+In our CSS file, apply the font to the desired elements using the font-family property. 
+
+By following these steps, we can include external fonts in our web page and apply them to any element you choose.  
