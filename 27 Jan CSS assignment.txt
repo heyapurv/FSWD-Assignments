@@ -1,0 +1,33 @@
+Q1. Why is it called a pseudo-class?
+
+Ans. The term "pseudo" means false or fake, and "class" refers to a group of elements that share a common attribute. Pseudo-classes are called "pseudo" because they are not actual classes defined in the HTML code, but rather they are a way to target and style elements based on their dynamic state or action.
+
+Pseudo-classes are written with a colon (:) followed by the name of the pseudo-class, such as :hover, :active, or :focus. These classes allow you to style elements based on user interaction or other dynamic events, without the need to add extra classes or attributes to the HTML code.
+
+Overall, pseudo-classes are a powerful tool in CSS that allow for dynamic styling of web page elements without modifying the HTML structure.
+
+Q2. What are gradients in CSS?
+
+Ans. In CSS, gradients are a type of background effect that allows you to create a smooth transition between two or more colors, or between a color and a transparent value. Gradients are created using the "linear-gradient()" or "radial-gradient()" CSS functions, which specify the start and end points of the gradient, and the colors or color stops to be used in the transition.
+
+There are two main types of gradients in CSS:
+
+Linear Gradients: A linear gradient creates a color transition that goes in a straight line, from one point to another. The gradient can be vertical, horizontal, or diagonal, and can contain multiple color stops.
+
+Radial Gradients: A radial gradient creates a color transition that goes from the center of a circle outwards, or from one point to another. The gradient can be circular, elliptical, or in the shape of a line, and can contain multiple color stops.
+
+Q3. What are different types of transitions in CSS?
+
+Ans. In CSS, there are several types of transitions that can be applied to elements to create smooth animation effects when a property changes. Some of the most common types of transitions in CSS are:
+
+Color transitions: These transitions allow you to smoothly change the color of an element, such as the background color or text color.
+
+Opacity transitions: These transitions allow you to smoothly change the opacity or transparency of an element.
+
+Size transitions: These transitions allow you to smoothly change the size of an element, such as the width, height, or font size.
+
+Position transitions: These transitions allow you to smoothly change the position of an element, such as moving it from one location to another on the page.
+
+Shape transitions: These transitions allow you to smoothly change the shape of an element, such as transforming a rectangle into a circle or triangle.
+
+Transform transitions: These transitions allow you to smoothly change the transform property of an element, such as rotating, scaling, or skewing it.
