@@ -1,0 +1,35 @@
+Q1. What is padding and margin and when do you use them?
+
+Ans- In CSS, padding and margin are two commonly used properties that help control the spacing around an element.
+
+Padding is the space between the content of an element and its border. It is used to create space within an element, and to separate the content of an element from its border. The padding property can be set separately for each side of an element (top, right, bottom, left), or can be set all at once using the shorthand padding property. Padding can be specified in different units such as pixels, ems, or percentages.
+
+Margin is the space outside an element, between the element's border and the adjacent elements. It is used to create space between elements, and to control the overall layout of a page. Like padding, the margin property can be set separately for each side of an element or can be set all at once using the shorthand margin property. Margin can also be specified in different units.
+
+
+Q2. What is display property and explain display inline, block, and inline-block?
+
+Ans-In CSS, the display property is used to control the layout behavior of an HTML element. It specifies how an element should be displayed on the web page, and it affects the box model properties of an element such as width, height, padding, margin, etc.
+
+There are several display property values, but the three most commonly used are inline, block, and inline-block. Here is a brief explanation of each:
+
+display: inline: This value makes an element behave like an inline element. Inline elements flow within the text of a document and do not create a new line. They are typically used for text, links, and other small content elements. Inline elements do not respect height and width properties, and their padding and margin values only affect the left and right sides, not the top and bottom.
+
+display: block: This value makes an element behave like a block element. Block elements always start on a new line and take up the full width available to them. They are typically used for larger content elements, such as paragraphs, headings, and divs. Block elements respect height and width properties, and their padding and margin values affect all sides.
+
+display: inline-block: This value makes an element behave like a combination of inline and block elements. Inline-block elements flow within the text of a document like inline elements, but they can also have a width, height, padding, and margin like block elements. They are typically used for elements that need to be placed next to each other, such as images with captions.
+
+
+Q3. Explain min-height, min-width, max-height and max-width in CSS?
+
+Ans-In CSS, min-height, min-width, max-height, and max-width are used to set constraints on the minimum and maximum dimensions of an element.
+
+min-height and min-width set the minimum height and width for an element, respectively. This means that the element will never be smaller than the specified values, even if its content is smaller.
+
+For example, if you set min-height: 200px; on a container element, it will always be at least 200 pixels tall, even if there is very little content inside.
+
+max-height and max-width set the maximum height and width for an element, respectively. This means that the element will never be larger than the specified values, even if its content would normally make it larger.
+
+For example, if you set max-width: 500px; on an image element, the image will never be wider than 500 pixels, even if it is a high-resolution image that is much larger.
+
+All of these properties accept values in different units, such as pixels, percentages, or ems, and can be used together to create flexible layouts that adapt to different screen sizes and devices.
