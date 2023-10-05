@@ -1,0 +1,48 @@
+// Q1. Create a component named "person" that takes two props - "name" and "age". The component should display the person's name and age in a paragraph element.
+
+function Person(props){
+    return (
+        <p>
+        {props.name} is {props.age} Years old.
+        </p>
+    );
+}
+//use
+<person name="ABC" age="20"/>
+
+// Q2. Create a component named "Button" that takes two props - "text" and "onClick". The component should display a button element with the given text and call the onClick function when clicked.
+
+function Button(props) {
+    return (
+      <button onClick={props.onClick}>
+        {props.text}
+      </button>
+    );
+  }
+  
+  //use
+  <Button text="Click me!" onClick={() => console.log("Clicked!!")} />
+  
+// Q3. Create a component named "Header" that takes one prop - "title". The component should display a header element with the given title.
+
+function Header(props) {
+    return <h1>{props.title}</h1>;
+  }
+  
+  // Usage
+  <Header title="Hello There!" />
+  
+
+// Q4.  Create a component named "List" that takes one prop - "items". The component should display an unordered list element with the given list items.
+
+function List(props) {
+    const listItems = props.items.map((item) =>
+      <li key={item}>{item}</li>
+    );
+    
+    return <ul>{listItems}</ul>;
+  }
+  
+  // Use
+  <List items={['Banana', 'Kiwi', 'Mango']} />
+  
