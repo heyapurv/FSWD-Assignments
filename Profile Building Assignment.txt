@@ -1,0 +1,14 @@
+Q1. What is the difference between User experience and user interface. 
+UI (User Interface):
+- Definition: Deals with the visual elements users interact with.
+- Focus: Aesthetics, layout, and design of the product.
+
+UX (User Experience):
+- Definition: Encompasses the overall user interaction and satisfaction.
+- Focus: User emotions, perceptions, and the entire user journey.
+
+Q2. who is a frontend developer explain the roles and responsibilities in your own words
+- A frontend developer focuses on creating the visual and interactive elements of websites or applications. Their responsibilities include UI design, coding with HTML, CSS, and JavaScript, ensuring cross-browser compatibility, and collaborating with designers for a seamless user experience.
+
+Q3. who is a backend developer explain the roles and responsibilities in your own words.
+ - A backend developer is responsible for server-side development, managing databases, implementing server logic, and creating APIs to ensure the functionality and data processing of a website or application.
