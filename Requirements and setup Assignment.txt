@@ -1,0 +1,20 @@
+Q1. List all the tools you might use as a web developer.
+ - Text Editors: Visual Studio Code, Sublime Text, Atom
+- Version Control: Git
+- Browser Developer Tools: Chrome DevTools, Firefox Developer Tools
+- Frameworks and Libraries: React, Angular, Vue.js
+- Package Managers: npm (Node Package Manager), yarn
+- Build Tools: Webpack, Babel
+- Testing Frameworks: Jest, Mocha, Jasmine
+- Graphic Editors: Adobe Photoshop, Sketch
+- CMS (Content Management Systems): WordPress, Drupal
+- Collaboration Tools: Slack, GitHub, Jira
+
+Q2. What are some of the features of pw skills online lab? explain how they are useful.
+Hands-On Practice: The lab provides a platform for practical, hands-on coding exercises, allowing learners to apply their knowledge in a real coding environment.
+
+Scalable Environments: Users can work in environments that can scale based on the complexity of the exercises, ensuring a seamless learning experience for both beginners and advanced learners.
+
+Instant Feedback: The lab offers instant feedback on code execution and correctness, helping learners identify and correct mistakes in real-time.
+
+Real-world Projects: Users can work on projects that simulate real-world scenarios, enhancing their problem-solving skills and preparing them for actual development work.

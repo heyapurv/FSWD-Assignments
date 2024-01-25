@@ -1,0 +1,11 @@
+Q1. What is HTML?
+ HTML (Hypertext Markup Language) is the standard markup language used to create and design the structure of web pages and web applications.
+
+Q2. What is CSS?
+  CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML, including aspects such as layout, colors, and fonts.
+
+Q3. Why did javascript come into the picture
+ JavaScript was introduced to add interactivity and dynamic behavior to web pages. It allows for client-side scripting, enabling actions to be performed directly in the user's browser without needing to communicate with the server.
+
+Q4. History of javascript and ecmaScript. Explain in your own words.
+ JavaScript was created by Netscape in 1995 to make web pages more interactive. It gained popularity rapidly, leading to standardization efforts. ECMAScript is the standardized scripting language specification based on JavaScript, with the first edition released in 1997. Subsequent versions, updates, and improvements have been introduced through the years to enhance and standardize the language, ensuring compatibility across different web browsers.
