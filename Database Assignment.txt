@@ -1,0 +1,52 @@
+Q1. What is a database? Explain with an example on why should we need a database.
+
+A database is a structured collection of data organized for easy retrieval, management, and update. For example, a customer database for an e-commerce site stores information like names, addresses, and purchase history. We need databases for efficient data storage, retrieval, and management, enabling organized and quick access to information.
+
+Q2. Write a short note on file-based storage systems. Explain the major challenges of a file-based storage system.
+
+File-based storage systems store data in files, lacking the organizational structure of databases. Challenges include data redundancy, inconsistency, difficulty in retrieval, lack of data integrity, and limited security measures.
+
+Q3. What is DBMS? What was the need for DBMS?
+
+DBMS (Database Management System) is software that facilitates the creation, organization, and management of databases. The need for DBMS arises from the limitations of file-based systems, offering better data organization, retrieval, and security, and reducing data redundancy and inconsistency.
+
+Q4. Explain 5 challenges of file-based storage systems that were tackled by DBMS.
+
+1. Data Redundancy: DBMS eliminates duplicate data.
+2. Data Inconsistency: Ensures data integrity through constraints.
+3. Limited Retrieval: Offers efficient query and retrieval mechanisms.
+4. Security Concerns: Implements user authentication and access controls.
+5. Data Independence: Allows changes in data structure without affecting applications.
+
+Q5. List out the different types of classification in DBMS and explain them in depth.
+
+Types of Classification in DBMS:
+1. Based on Data Model: Relational, Hierarchical, Network, Object-Oriented.
+2. Based on Usage: Operational, Analytical, Data Warehousing.
+3. Based on Number of Users: Single-user, Multi-user.
+4. Based on Data Abstraction: Physical, Logical.
+
+Explained:
+- Relational Model: Organizes data in tables.
+- Operational Database: Supports daily operations.
+- Single-User Database: Accessed by a single user.
+- Physical Abstraction: Deals with storage details.
+
+Q6. What is the significance of data modeling and explain the types of data modeling.
+
+Data modeling is crucial for designing databases. It visually represents data entities, relationships, and attributes. Types:
+1. Conceptual Data Model: Abstract representation of data concepts.
+2. Logical Data Model: Defines how data is stored and accessed.
+3. Physical Data Model: Specifies data storage details.
+
+Q7. Explain 3 schema architecture along with its advantages.
+
+The three-schema architecture comprises:
+1. User Schema (View Level): Describes how data is presented to users.
+2. Logical Schema (Conceptual Level): Represents the organization of data.
+3. Physical Schema (Internal Level): Defines how data is stored.
+
+Advantages:
+- Data Independence: Changes in one schema don't affect others.
+- Security Enhancement: Different access levels for each schema.
+- Ease of Modification: Changes can be made at one schema level without affecting others.
