@@ -1,0 +1,29 @@
+1. What is RDBMS? Why do industries use RDBMS?
+   - RDBMS stands for Relational Database Management System. Industries use RDBMS to organize and manage data in a structured and efficient manner, providing a reliable and scalable way to store, retrieve, and manipulate data.
+
+2. Explain the relationship data model in depth.
+   - The relationship data model represents data as tables with rows and columns, emphasizing relationships between tables. It enforces integrity constraints and allows for efficient querying and retrieval of related data.
+
+3. What is the importance of relationships in a database management system? Explain the types of relationships.
+   - Relationships in a database ensure data integrity and enable the linking of information between tables. Types of relationships include one-to-one, one-to-many, and many-to-many, defining how records in one table relate to those in another.
+
+4. Explain the different types of keys in RDBMS considering a real-life scenario.
+   - Different types of keys in RDBMS include Primary Key (unique identifier), Foreign Key (links to another table's primary key), and Candidate Key (unique key that could be a primary key). In a real-life scenario, a person's Social Security Number could serve as a primary key.
+
+5. Write a short note on single responsibility principle.
+   - The Single Responsibility Principle (SRP) is a design principle in software development stating that a class or module should have only one reason to change. It promotes modularity and maintainability by assigning a single responsibility to each component.
+
+6. Explain the different types of errors that could arise in a denormalized database.
+   - In a denormalized database, errors such as data redundancy, update anomalies, and difficulty in maintaining consistency may arise. Redundant data can lead to inconsistencies when updates are made in one place but not in others.
+
+7. What is normalization and what is the need for normalization?
+   - Normalization is the process of organizing data in a database to reduce redundancy and dependency. The need for normalization arises to avoid anomalies, improve data integrity, and make the database more efficient.
+
+8. List out the different levels of Normalization and explain them in detail.
+   - The different levels of normalization include 1NF (removing duplicate rows), 2NF (ensuring all non-key attributes are fully functionally dependent on the primary key), 3NF (eliminating transitive dependencies), BCNF (ensuring all determinants are superkeys), and 4NF (dealing with multi-valued dependencies).
+
+9. What are joins and why do we need them?
+   - Joins in a database are used to combine rows from two or more tables based on a related column. They are needed to retrieve information that spans multiple tables and establish connections between related data.
+
+10. Explain the different types of joins.
+    - Different types of joins include INNER JOIN (returns matching rows from both tables), LEFT JOIN (returns all rows from the left table and matching rows from the right table), RIGHT JOIN (returns all rows from the right table and matching rows from the left table), and FULL JOIN (returns all rows when there is a match in either table).
